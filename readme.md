@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Order summary component solution
 
-This is a solution to the [{Name of challenge} challenge on Frontend Mentor]({Challange Link}). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Order summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -22,8 +22,8 @@ This is a solution to the [{Name of challenge} challenge on Frontend Mentor]({Ch
 
 ### Links
 
-- Solution URL: [Solution]({REPO LINK})
-- Live Site URL: [Demo/site](DEMO LINK)
+- Solution URL: [Solution](https://github.com/Himanshu-196018/order-summary-component-challenge)
+- Live Site URL: [Demo/site](https://himanshu-196018.github.io/order-summary-component-challenge/)
 
 ## My process
 
@@ -37,7 +37,7 @@ This is a solution to the [{Name of challenge} challenge on Frontend Mentor]({Ch
 
 ### What I learned
 
-This project helped me to improve my basic styling and palcement of different elements by building a {Project name}.
+This project helped me to improve my basic styling and palcement of different elements by building an Order summary card component.
 
 ### Useful resources
 
