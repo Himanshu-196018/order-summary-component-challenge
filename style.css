@@ -4,3 +4,114 @@
   margin: 0;
   padding: 0;
 }
+
+/* mobile-first style */
+body {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  /* background svg images mobile-first */
+  background: hsl(225, 100%, 94%) url("images/pattern-background-mobile.svg")
+    no-repeat top;
+}
+
+/* style for component */
+.container {
+  max-width: 325px;
+  background-color: white;
+  border-radius: 12px;
+  justify-self: center;
+  align-self: center;
+}
+
+.container > img {
+  width: 325px;
+  height: 160px;
+  border-radius: 12px 12px 0 0;
+}
+
+/* style for order summary details*/
+.order-summary {
+  margin: 0 auto;
+  width: 275px;
+  height: 400px;
+  display: grid;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+/* styling subscription plan section */
+.plan {
+  height: 80px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.logo {
+  width: 46px;
+  height: 46px;
+}
+h4 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+.plan a {
+  font-weight: 700;
+  display: inline;
+  align-self: center;
+}
+a:hover {
+  text-decoration: none;
+  color: hsl(245, 83%, 68%);
+  transform: scale(1.1);
+  transition: all 0.4s ease-in;
+}
+/* styling buttons */
+button {
+  font-weight: 900;
+  border-radius: 12px;
+  border: none;
+}
+
+.proceed {
+  height: 50px;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 6px 8px hsl(245, 75%, 78%);
+}
+.proceed:hover {
+  cursor: pointer;
+  background-color: hsl(245, 83%, 68%);
+  transform: scale(1.06);
+  transition: all 0.4s ease-in;
+}
+
+.cancel {
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+}
+.cancel:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+  transform: scale(1.1);
+  transition: all 0.4s ease-in;
+}
+
+/* styling footer */
+footer {
+  margin: 10px 0;
+  font-size: 14px;
+  align-self: flex-end;
+  justify-self: center;
+}
